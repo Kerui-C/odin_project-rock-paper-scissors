@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fix the Cascade</title>
     <link rel="stylesheet" href="style.css">
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      @import url('https://fonts.cdnfonts.com/css/arcade-classic');
     </style>
     <script src="code.js" defer></script>
   </head>
   <body>
-    <h1>My shopping list</h1><br>
-    <div class="user">
-        <label for="item">Enter a new item:</label>
-        <input type="text" name="item" id="item">
-        <button id="yes">Add item</button><br>
-      </div>
-
-    <ul>
-
-    </ul>
-
+    <section>
+      <h1>Rock, Paper, Scissors</h1>
+    </section>
+    <section>
+        <div class="hero">
+          <div class="user">
+            <h3>User: <span>0</span></h3>
+            <h4>you chose: </h4><br>
+          </div>
+          <div class="computer">
+            <h3>computer: <span>0</span></h3>
+            <h4>they chose: </h4><br>
+          </div>
+        </div>
+    </section>
+    <section>
+      <ul>
+        <li><button class="w">&#9994</button></li>
+        <li><button class="w">&#9995</button></li>
+        <li><button class="w">&#9996</button></li>
+      </ul>
+    </section>
   </body>
 </html>

@@ -1,21 +1,18 @@
 body{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'ArcadeClassic', sans-serif;
+  background-color: yellow;
 }
-
 h1{
   display: flex;
-  font-size: 50px;
   justify-content: center;
 }
-
-.user{
+.hero{
   display: flex;
-  justify-content: center;
-}
-
-#yes{
-  margin-left: 8px;
+  justify-content: space-around;
 }
 ul{
-  font-family: 'Times New Roman', Times, serif;
+  list-style-type: none;
+  size: 50px;
 }
+
+
