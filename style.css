@@ -13,6 +13,15 @@ h1{
 ul{
   list-style-type: none;
   size: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
 }
+.w{
+  height: 150px;
+  width: 150px;
+  font-size: 100px;
+}
+
 
 
