@@ -1,53 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-.header,.main{
-  background-color: #1F2937;
-}
 body{
-  font-family: 'Roboto', sans-serif;
-}
-#Logo{
-  font-size: 24px;
-  color: #F9FAF8;
-  margin-bottom: 20px;
-}
-.navbar{
-  display: flex;
-  padding:  8px;
-}
-.header-link{
-  font-size: 18px;
-  color: gray;
-}
-ul{
-  display: flex;
-  list-style-type: none;
-  gap: 8px;
-}
-.right,.left{
-  display: flex;
-  width: 50%;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1{
-  font-size: 48px;
-  font-weight: bolder;
-  color: #F9FAF8;
-}
-
-.left,.button{
   display: flex;
-  flex-direction: column;
+  font-size: 50px;
   justify-content: center;
 }
 
-.left,.button,.right-img{
+.user{
   display: flex;
-  width: 50%;
   justify-content: center;
-  align-items: center;
+}
+
+#yes{
+  margin-left: 8px;
+}
+ul{
+  font-family: 'Times New Roman', Times, serif;
 }
