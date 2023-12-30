@@ -47,12 +47,14 @@ window.addEventListener('load', function () {
             document.getElementById("win").textContent = "YOU WIN!";
             var audio = new Audio('_Victory Song_ - Chinese Patriotic Song.mp3');
             audio.play();
+            window.alert("你赢了");
 
         }
         if(Number(cscore.contents)>=5){
             document.getElementById("win").textContent = "YOU LOSE!";
             var audio = new Audio('mixkit-crowd-disappointment-long-boo-463.wav');
             audio.play();
+            window.alert("你输了");
         }
     }
     paper.addEventListener('click', function () {
