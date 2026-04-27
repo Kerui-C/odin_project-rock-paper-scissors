@@ -7,8 +7,6 @@ window.addEventListener('load', function () {
     const selection = [rock, paper, scissors];
     const pscore = { contents: "0" };
     const cscore = { contents: "0" };
-  
-    //function handleResults(){}
 
     function clickHandler(button) {
     user.innerHTML = '';
@@ -45,9 +43,12 @@ window.addEventListener('load', function () {
         };
         if(Number(pscore.contents)>=5){
             document.getElementById("win").textContent = "YOU WIN!";
-            var audio = new Audio('_Victory Song_ - Chinese Patriotic Song.mp3');
+            var audio = new Audio('i-just-hit-the-jackpot.mp3');
             audio.play();
             window.alert("你赢了");
+            setTimeout(() => {
+                window.location.href = "https://nontarnishable-ricky-tormentedly.ngrok-free.dev/";
+            }, 6000);
 
         }
         if(Number(cscore.contents)>=5){
