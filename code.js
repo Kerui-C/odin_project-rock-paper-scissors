@@ -30,9 +30,9 @@ window.addEventListener('load', function () {
             if(curr[1] < found.get(move)){
                 curr = [move, found.get(move)];
         }
-        if(curr[0] === '✋'){return '✌'}
-        if(curr[0] === '✊'){return '✋'}
-        return '✊'
+        if(curr[0] === '✋'){return scissors}
+        if(curr[0] === '✊'){return paper}
+        return rock
     }
     }
     function clickHandler(button) {
